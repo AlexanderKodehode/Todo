@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 25px 5px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+button {
+    height: 25px;
+    width: 60px;
+}
+
+.add-btn {
+    background-color: green;
+}
+
+.delete-btn {
+    background-color: red;
+    color: Black;
+}
+
+ul {
+    list-style: none; 
+    width: 200px;  
+    margin: 10px;
+}
